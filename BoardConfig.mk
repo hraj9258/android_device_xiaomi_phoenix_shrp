@@ -132,3 +132,28 @@ TW_NO_SCREEN_BLANK := true
 TWRP_INCLUDE_LOGCAT := true
 # TWRP Debug Flags
 TARGET_USES_LOGD := true
+
+# SHRP Flags
+# Device codename
+SHRP_DEVICE_CODE := phoenix
+# Path of your SHRP device tree
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+# Maintainer name
+SHRP_MAINTAINER := hraj9258
+# Recovery Type (for "About" section only)
+# Default (if not set): N/A
+SHRP_REC_TYPE := SAR
+# Your device's recovery path, dont use blindly
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+# internal storage path
+SHRP_INTERNAL := /sdcard
+# If your device has an external sdcard
+SHRP_EXTERNAL := /external_sd
+# USB OTG path
+SHRP_OTG := /usb_otg
+# Flashlight: (0 = disable, 1 = enable)
+SHRP_FLASH := 0
+# For notch devices
+SHRP_NOTCH := true
+# SHRP Dark mode, use this flag to have dark theme set by default
+SHRP_DARK := true
