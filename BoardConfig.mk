@@ -158,4 +158,4 @@ SHRP_NOTCH := true
 # SHRP Dark mode, use this flag to have dark theme set by default
 SHRP_DARK := true
 # SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
-#SHRP_EXPRESS := true
+SHRP_EXPRESS := true
