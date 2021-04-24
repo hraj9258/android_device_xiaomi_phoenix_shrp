@@ -159,3 +159,7 @@ SHRP_NOTCH := true
 SHRP_DARK := true
 # SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
 SHRP_EXPRESS := true
+# Do not include the SHRP theming system
+SHRP_LITE := true
+# Addon - Clear Fingerprint (remove fingerprint lock from system)
+SHRP_SKIP_DEFAULT_ADDON_3 := true
