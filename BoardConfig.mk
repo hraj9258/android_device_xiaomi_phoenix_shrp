@@ -152,13 +152,11 @@ SHRP_EXTERNAL := /external_sd
 # USB OTG path
 SHRP_OTG := /usb_otg
 # Flashlight: (0 = disable, 1 = enable)
-SHRP_FLASH := 0
+SHRP_FLASH := 1
 # For notch devices
 SHRP_NOTCH := true
 # SHRP Dark mode, use this flag to have dark theme set by default
 SHRP_DARK := true
-# SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
-SHRP_EXPRESS := true
 # Do not include the SHRP theming system
 SHRP_LITE := true
 # Addon - Clear Fingerprint (remove fingerprint lock from system)
