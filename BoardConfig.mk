@@ -161,3 +161,4 @@ SHRP_DARK := true
 SHRP_LITE := true
 # Addon - Clear Fingerprint (remove fingerprint lock from system)
 SHRP_SKIP_DEFAULT_ADDON_3 := true
+SHRP_OFFICIAL := true
