@@ -160,6 +160,8 @@ SHRP_DARK := true
 # Addon - Clear Fingerprint (remove fingerprint lock from system)
 SHRP_SKIP_DEFAULT_ADDON_3 := true
 SHRP_OFFICIAL := true
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
 
 BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
 --prop com.android.build.boot.os_version:$(PLATFORM_VERSION) \
