@@ -139,7 +139,7 @@ SHRP_DEVICE_CODE := phoenix
 # Path of your SHRP device tree
 SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 # Maintainer name
-SHRP_MAINTAINER := hraj9258
+SHRP_MAINTAINER := Himanshu Raj (hraj9258)
 # Recovery Type (for "About" section only)
 # Default (if not set): N/A
 SHRP_REC_TYPE := SAR
@@ -153,6 +153,8 @@ SHRP_EXTERNAL := /external_sd
 SHRP_OTG := /usb_otg
 # Flashlight: (0 = disable, 1 = enable)
 SHRP_FLASH := 1
+# SHRP padding flag (for rounded corner devices only)
+SHRP_STATUSBAR_RIGHT_PADDING := 245
 # For notch devices
 SHRP_NOTCH := true
 # SHRP Dark mode, use this flag to have dark theme set by default
