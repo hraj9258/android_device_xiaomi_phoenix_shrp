@@ -122,8 +122,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1000
-TW_Y_OFFSET := 40
-TW_H_OFFSET := -91
+TW_Y_OFFSET := 0
+TW_H_OFFSET := 0
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
@@ -139,7 +139,7 @@ SHRP_DEVICE_CODE := phoenix
 # Path of your SHRP device tree
 SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 # Maintainer name
-SHRP_MAINTAINER := "Himanshu Raj (hraj9258)"
+SHRP_MAINTAINER := "Himanshu Raj (@hraj9258)"
 # Recovery Type (for "About" section only)
 # Default (if not set): N/A
 SHRP_REC_TYPE := SAR
