@@ -139,7 +139,7 @@ SHRP_DEVICE_CODE := phoenix
 # Path of your SHRP device tree
 SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
 # Maintainer name
-SHRP_MAINTAINER := Himanshu Raj (hraj9258)
+SHRP_MAINTAINER := "Himanshu Raj (hraj9258)"
 # Recovery Type (for "About" section only)
 # Default (if not set): N/A
 SHRP_REC_TYPE := SAR
