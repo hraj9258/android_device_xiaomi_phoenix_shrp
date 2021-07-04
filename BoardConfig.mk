@@ -122,7 +122,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1000
-TW_Y_OFFSET := 91
+TW_Y_OFFSET := 40
 TW_H_OFFSET := -91
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
@@ -154,7 +154,7 @@ SHRP_OTG := /usb_otg
 # Flashlight: (0 = disable, 1 = enable)
 SHRP_FLASH := 1
 # SHRP padding flag (for rounded corner devices only)
-SHRP_STATUSBAR_RIGHT_PADDING := 245
+SHRP_STATUSBAR_RIGHT_PADDING := 210
 # For notch devices
 SHRP_NOTCH := true
 # SHRP Dark mode, use this flag to have dark theme set by default
